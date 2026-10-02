@@ -1,11 +1,13 @@
 public class Square extends Shape{
-    private String id;
     private int side;
 
-    protected Square(String id, int side, Renderer renderer){
-        super(renderer);
-        this.id = id;
+    public Square(String id, int side, Renderer renderer){
+        super(id, renderer);
         this.side = side;
+    }
+
+    public int getSide() {
+        return side;
     }
 
     @Override

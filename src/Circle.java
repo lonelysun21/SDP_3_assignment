@@ -1,11 +1,13 @@
 public class Circle extends Shape{
-    private String id;
     private int radius;
 
-    protected Circle(String id, int radius, Renderer renderer) {
-        super(renderer);
-        this.id = id;
+    public Circle(String id, int radius, Renderer renderer) {
+        super(id, renderer);
         this.radius = radius;
+    }
+
+    public int getRadius() {
+        return radius;
     }
 
     @Override
