@@ -37,6 +37,14 @@ public class Main {
             } else {
                 System.out.println("T5 | Id, radius or object was changed");
             }
+
+            // T6
+            Circle circle3 = new Circle("C3", 2, new AsciiRenderer());
+            System.out.println("T6 | " + circle3.execute());
+
+            // T7
+            Square square3 = new Square("S3", 3, new AsciiRenderer());
+            System.out.println("T7 | " + square3.execute());
         }
     }
 }
