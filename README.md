@@ -5,6 +5,7 @@
 **Topic:** A - Drawing  
 **Repository:** https://github.com/lonelysun21/SDP_3_assignment
 **Base commit:** `c9c84c6`
+**Submitted commit:** f187e7ec3b3857d77915dfbd2b2f6883ae83121c
 
 ## Project idea
 
