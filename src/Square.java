@@ -10,6 +10,6 @@ public class Square extends Shape{
 
     @Override
     public String execute() {
-        return "";
+        return renderer.renderSquare(side);
     }
 }

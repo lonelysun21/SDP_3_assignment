@@ -10,6 +10,6 @@ public class Circle extends Shape{
 
     @Override
     public String execute() {
-        return "";
+        return renderer.renderCircle(radius);
     }
 }
