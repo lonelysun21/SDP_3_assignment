@@ -1,12 +1,15 @@
 public class Square extends Shape{
+    private String id;
     private int side;
 
-    protected Square(Renderer renderer){
+    protected Square(String id, int side, Renderer renderer){
         super(renderer);
+        this.id = id;
+        this.side = side;
     }
 
     @Override
-    public void draw() {
-        System.out.println("Drawing Square");
+    public String execute() {
+        return "";
     }
 }

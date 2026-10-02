@@ -5,5 +5,9 @@ abstract public class Shape {
         this.renderer = renderer;
     }
 
-    public abstract void draw();
+    public void setImplementation(Renderer renderer) {
+        this.renderer = renderer;
+    }
+
+    public abstract String execute();
 }

@@ -1,12 +1,15 @@
 public class Circle extends Shape{
+    private String id;
     private int radius;
 
-    protected Circle(Renderer renderer) {
+    protected Circle(String id, int radius, Renderer renderer) {
         super(renderer);
+        this.id = id;
+        this.radius = radius;
     }
 
     @Override
-    public void draw() {
-        System.out.println("Drawing Circle");
+    public String execute() {
+        return "";
     }
 }

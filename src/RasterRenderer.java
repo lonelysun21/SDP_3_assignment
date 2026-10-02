@@ -1,6 +1,11 @@
 public class RasterRenderer implements Renderer{
     @Override
-    public void render() {
-        System.out.println("Rendering something");
+    public String renderCircle(int radius) {
+        return "";
+    }
+
+    @Override
+    public String renderSquare(int side) {
+        return "";
     }
 }

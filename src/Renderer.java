@@ -1,3 +1,4 @@
 public interface Renderer {
-    void render();
+    String renderCircle(int radius);
+    String renderSquare(int side);
 }

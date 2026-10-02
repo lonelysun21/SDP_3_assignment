@@ -1,7 +1,11 @@
 public class VectorRenderer implements Renderer{
+    @Override
+    public String renderCircle(int radius) {
+        return "";
+    }
 
     @Override
-    public void render() {
-        System.out.println("Rendering something");
+    public String renderSquare(int side) {
+        return "";
     }
 }
