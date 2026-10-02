@@ -1,0 +1,37 @@
+diff --git a/src/AsciiRenderer.java b/src/AsciiRenderer.java
+new file mode 100644
+index 0000000..e4c8f04
+--- /dev/null
++++ b/src/AsciiRenderer.java
+@@ -0,0 +1,11 @@
++public class AsciiRenderer implements Renderer{
++    @Override
++    public String renderCircle(int radius) {
++        return "Ascii rendering Circle with radius: " + radius;
++    }
++
++    @Override
++    public String renderSquare(int side) {
++        return "Ascii rendering Square with side: " + side;
++    }
++}
+diff --git a/src/Main.java b/src/Main.java
+index 5bb40ca..d3bcb5f 100644
+--- a/src/Main.java
++++ b/src/Main.java
+@@ -37,6 +37,14 @@ public class Main {
+             } else {
+                 System.out.println("T5 | Id, radius or object was changed");
+             }
++
++            // T6
++            Circle circle3 = new Circle("C3", 2, new AsciiRenderer());
++            System.out.println("T6 | " + circle3.execute());
++
++            // T7
++            Square square3 = new Square("S3", 3, new AsciiRenderer());
++            System.out.println("T7 | " + square3.execute());
+         }
+     }
+ }
+\ No newline at end of file

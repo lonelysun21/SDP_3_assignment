@@ -1,0 +1,17 @@
+T1 | Vector rendering Circle with radius: 2
+T1 PASS
+T2 | Raster rendering Circle with radius: 2
+T2 PASS
+T3 | Vector rendering Square with side: 3
+T3 PASS
+T4 | Raster rendering Square with side: 3
+T4 PASS
+Before: Vector rendering Circle with radius: 2
+T5 | same object and state unchanged
+After: Raster rendering Circle with radius: 2
+T5 PASS
+T6 | Ascii rendering Circle with radius: 2
+T6 PASS
+T7 | Ascii rendering Square with side: 3
+T7 PASS
+SUMMARY: 7/7 PASS
