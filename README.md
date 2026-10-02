@@ -4,8 +4,7 @@
 **Group:** SE-2526
 **Topic:** A - Drawing  
 **Repository:** https://github.com/lonelysun21/SDP_3_assignment
-**Base commit:** `c9c84c6`  
-**Submitted commit:** 
+**Base commit:** `c9c84c6`
 
 ## Project idea
 
