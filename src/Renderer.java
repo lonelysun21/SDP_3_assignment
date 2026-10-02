@@ -1,2 +1,3 @@
-public class Renderer {
+public interface Renderer {
+    void render();
 }
